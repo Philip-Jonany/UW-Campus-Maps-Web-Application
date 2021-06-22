@@ -1,0 +1,14 @@
+CreateGraph A
+
+AddNode A n1
+AddNode A n2
+AddNode A n3
+
+AddEdge A n1 n2 e1
+AddEdge A n2 n3 e1
+AddEdge A n3 n1 e1
+AddEdge A n1 n3 e2
+AddEdge A n3 n2 e2
+AddEdge A n2 n1 e2
+
+ListChildren A n1

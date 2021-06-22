@@ -1,0 +1,7 @@
+Briefly list any changes you made to your graph class during hw-pathfinder, and why you made those changes.
+
+I changed the edge class so that it doesn't compare destinations, since now because of generics, the destinations aren't required to be comparables.
+destinations and edge labels are not required to be comparable.
+used a comparator in hw5 and hw6 scripttestdrivers and the bfs algorithm because the nodes and edges are no longer comparable.
+no more compareto() in edge.java
+

@@ -1,0 +1,108 @@
+## CSE 331 hw-graph Part 1 Questions
+
+## Section 1
+###########################################################################
+
+1. Write an AF and RI for IntQueue1 and IntQueue2.
+
+    ### IntQueue1
+
+    Abstraction Function:
+        AF(this) = entries = a list of integer objects such that:
+        The front element of the queue (first insertion to queue) = entries.get(0)
+        The last element / most recently added element =  element at the very back end of the linked list entries.
+
+    Representation Invariant:
+        entries != null && entries has no null elements
+
+
+    ### IntQueue2
+
+    Abstraction Function:
+        AF(this) = entries = array of ints which implements wrapping around the array.
+        The front element of the queue = entries[front]
+        Last element in the queue = entries[(front + size) % entries.length - 1]
+
+    Representation Invariant:
+        entries != null
+        front >= 0 && front < entries.length
+        size >= 0
+        elements in entries never contain a null value
+
+
+
+
+2. Group the snapshots of IntQueue2's internal state into groups that have the same abstract state.
+[a,d,g], [b,h], [c,f], [e]
+
+
+
+
+3. For each signature below, state and justify in 1-2 sentences (per part) whether the method or constructor
+could possibly expose the representation, given the information available. Explain any assumptions you made.
+
+    a. `public int solveEquations(int x, int y, int z)`
+        This won't expose the representation because the parameters are all ints which are primitive data types, so they
+        are not mutable objects and x,y,z's values won't change after the method is finished.
+
+
+    b. `public String[] decode(boolean slowly)`
+        this can expose the rep because it returns an array of strings and this is mutable
+
+
+    c. `private Date myBirthday()`
+       It returns a Date object, and if Date is a mutable object, then this method can expose the rep by
+       altering the object's fields instead of making copies.
+
+
+    d. `public String toString()`
+        This won't expose the rep because strings are immutable in Java and this method returns strings
+
+
+    e. `public Iterator<Integer> elements()`
+        This can expose the rep if the iterator iterates through the original elements and objects
+        instead of iterating through copies of the object. This is true if it is possible to remove the Integer
+        by iterating through the original collection of Integers.
+
+
+    f. `public Deck(List<Card> cards)`
+        This constructor can expose the rep if it doesn't make a copy of the list of card objects at the beginning because
+        there otherwise there is a risk that the Deck object is created, and the client changes the elements in the
+        list, which might also change the Deck object and violate the rep invariant.
+
+
+
+## Section 2
+###########################################################################
+
+Briefly explain why you included the operations you did and why you feel they are a sufficient
+interface to a graph. If your design includes multiple classes or interfaces, explain why you
+included each one; if not, explain whether you considered additional classes and why you decided
+not to include them.
+
+The constructor is so that we can create the graph instance. addNode() and addEdge() are necessary because they build the graph. Graphs consist
+of edges and nodes, so these two functions are enough. hasNode() is important because clients may want to know if certain nodes exist,
+and it is also required for addNode() because we don't to create duplicate nodes. hasEdge is also useful information for the client
+and is required for addEdge() so that we don't create duplicate edges. getNodes() is important for the client because the client may want to know
+all the nodes that currently exist. getChildren() is important because the client may want to know all the children of a particular
+parent node to visualize the tree better. toString() is important because it gives the client a useful visualization of how the graph
+current looks like. In the future, I will create a separate class or object named edge which contains a label and points to the next
+vertex. However, because we are only submitting part-1, details of this class are not included yet.
+
+
+## Section 3
+###########################################################################
+
+What was your testing strategy for this assignment? How do your script tests and JUnit tests
+differ from each other (if they do), and why?
+
+Before I code, I think of several tests that a graph should fulfill, which is black-box testing. I try to think like a client and
+imagine what important functions I would need to call if I wanted a graph class. Then, I look at the test-script format
+and then think of the methods that I should write, and from these methods, I make tests (clear-box testing) that test each method. I use
+the tests to try and test at least each sub-domain of every method and cover the lines. My script tests are different from JUnit tests
+because I use the JUnit tests to check if the correct exceptions are thrown and if methods are returning the right values (especially
+the boolean return values from adding nodes and edges). The script tests are mostly for checking the valid instructions in the test file format to make sure the program outputs the right .expected file
+when I run the test file script.
+
+
+

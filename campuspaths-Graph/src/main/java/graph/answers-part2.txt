@@ -1,0 +1,66 @@
+## CSE 331 hw-graph Part 2 Questions
+
+NOTE: This file is used as part of hw-graph-part2, and is not due as part of the hw-graph-part1
+submission. You may leave it blank for hw-graph-part1.
+
+## Section 1
+###########################################################################
+
+A few examples of possible Graph representations:
+
+    A: A collection of edges.
+    B: An adjacency list, in which each node is associated with a list of its outgoing edges.
+    C: An adjacency matrix, which explicitly represents, for every pair ⟨A,B⟩ of edges, whether there is a link from A to B, and how many.
+
+1. In two or three sentences, explain an advantage and a disadvantage of each of the
+representations listed above (for example, in terms of runtime complexity, space
+complexity, or ease of implementation).
+disclaimer: a TA explained part A as a list of edges, so I will be going of based on that
+A is the easiest to implement, you just keep adding edges to the end of the list of edges, and having just one huge list of
+edges is very easy to code, however, it is very slow to check if the collection of edges contains a specific edge, because
+it would have to look at every edge in the list before the found edge, and this is O(E) running time, because the edge we're looking
+for might be at the end of the collection.
+
+B has O(1) time ceomplexity when adding an edge to a node's list of edges and is compact for sparse graphs, however doing
+find(edge) or remove(edge) is slow because in the worst case it could be O(E) to look through the entire list to encounter
+the target edge.
+
+C has O(1) time complexity in trying to know whether or not an edge exists between two nodes, however, this is inefficient for
+sparse graphs in storage and edge-access because it would store so many 0s when an edge doesn't exist.
+
+
+
+
+2. In two to three sentences, describe the representation you chose and explain why you
+chose it. If you chose to use a different representation than one of the three we described
+above, be sure to list its advantages and disadvantages, too.
+
+I'm going to use a hashmap with maps nodes to a hashset of the node's edges. The advantage is that adding nodes and edges is
+O(1) average case with hashing. One disadvantage would be that for a node's edgfddddddes, the hashset might have to keep rehashing
+and this might have empty unused spaces, while using a list of edges for each node will not waste space because you add edges
+to the back of the list and no waste is spaced unlike in an array (if hashset uses array implementation it has empty spots).
+
+
+## Section 4
+###########################################################################
+
+    (Please keep your answers brief and to-the-point.)
+
+1. Describe any new tests you added and why you added them, or why you feel that your original
+tests alone are sufficient.
+Added script tests to check if ListChildren lists children lexicographically with nodes first and then label
+Added script test to test behavior on graphs with cycles
+
+2. Did you make any changes to your specifications as you were implementing your Graph? (yes/no)
+If yes, describe your changes and why you made them.
+
+changed the rule about duplicate edges, so that edges which have same label but different children are now okay. This is
+so that my implementation matches the hw5-part1 assumptions better.
+
+addEdge is changed so that same label but different children are okay from same node (related to first point)
+instead of getChildren(), it is now getEdges() for simplicity of coding, because map.get() just returns set of edges, not children
+
+Implemented Edge class with respective specification in Edge.java
+
+added compareTo for Edge class so that we can sort them lexicographically in listChildren() in script test
+
