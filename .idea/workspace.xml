@@ -1,16 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ba403b-abd3-4da3-a179-436e9ed672c9" name="Default Changelist" comment="" />
+    <list default="true" id="70a47e55-5d65-4baa-83c9-59ae041dcc55" name="Default Changelist" comment="hw9 finished">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/extras.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/public/campus_map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/src/BuildingPicker.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/src/MapView.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/src/MapView.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/src/campus_map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-campuspaths/tsconfig.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/hw-setup">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/hw-poly">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/hw-graph">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/hw-marvel">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/hw-pathfinder">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/hw-campuspaths-server">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/hw-pathfinder/build.gradle">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/build.gradle">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/hw-campuspaths-server/build.gradle">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cse331" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cse331" type="f1a62948:ProjectNode" />
+                <item name="hw-campuspaths-server" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cse331" type="f1a62948:ProjectNode" />
+                <item name="hw-campuspaths-server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cse331" type="f1a62948:ProjectNode" />
+                <item name="hw-campuspaths-server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="homework" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cse331" type="f1a62948:ProjectNode" />
+                <item name="hw-campuspaths-server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1uJbWMHeI6DjBhksSMracLxnsN3" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1qtvxAGpewbW5qRC8tIVW52pMfu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,42 +165,357 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="ts.external.directory.path" value="C:\Users\phili\IdeaProjects\UW-Campus-Maps-Web-Application\hw-campuspaths\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\phili\IdeaProjects\UW-Campus-Maps-Web-Application" />
+      <recent name="C:\Users\phili\IdeaProjects\cse331-21sp-pjonany\hw-campuspaths\src" />
+      <recent name="C:\Users\phili\IdeaProjects\cse331-21sp-pjonany\hw-pathfinder\src\test\resources\testScripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\phili\IdeaProjects\cse331-21sp-pjonany\hw-marvel\src\test\resources\testScripts" />
+      <recent name="C:\Users\phili\IdeaProjects\cse331-21sp-pjonany\hw-graph\src\test\resources\testScripts" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.C:/Users/phili/IdeaProjects/UW-Campus-Maps-Web-Application/build.gradle (1)">
+    <configuration name="C:/Users/phili/IdeaProjects/UW-Campus-Maps-Web-Application/build.gradle (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
+    <configuration name="C:/Users/phili/IdeaProjects/UW-Campus-Maps-Web-Application/build.gradle (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/Users/phili/IdeaProjects/UW-Campus-Maps-Web-Application/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/Users/phili/IdeaProjects/UW-Campus-Maps-Web-Application/hw-pathfinder/build.gradle (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hw-pathfinder/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/Users/phili/IdeaProjects/UW-Campus-Maps-Web-Application/hw-pathfinder/build.gradle (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hw-pathfinder/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.C:/Users/phili/IdeaProjects/UW-Campus-Maps-Web-Application/build.gradle (1)" />
+        <item itemvalue="Gradle.C:/Users/phili/IdeaProjects/UW-Campus-Maps-Web-Application/build.gradle (2)" />
+        <item itemvalue="Gradle.C:/Users/phili/IdeaProjects/UW-Campus-Maps-Web-Application/build.gradle" />
+        <item itemvalue="Gradle.C:/Users/phili/IdeaProjects/UW-Campus-Maps-Web-Application/hw-pathfinder/build.gradle (2)" />
+        <item itemvalue="Gradle.C:/Users/phili/IdeaProjects/UW-Campus-Maps-Web-Application/hw-pathfinder/build.gradle (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a9ba403b-abd3-4da3-a179-436e9ed672c9" name="Default Changelist" comment="" />
-      <created>1624386670617</created>
+      <changelist id="70a47e55-5d65-4baa-83c9-59ae041dcc55" name="Default Changelist" comment="" />
+      <created>1617911945395</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1624386670617</updated>
-      <workItem from="1624386672015" duration="14000" />
-      <workItem from="1624386699303" duration="393000" />
+      <updated>1617911945395</updated>
+      <workItem from="1622019068299" duration="108000" />
+      <workItem from="1622019221784" duration="302000" />
+      <workItem from="1622144545026" duration="18000" />
+      <workItem from="1622144578472" duration="5729000" />
+      <workItem from="1622230675944" duration="19436000" />
+      <workItem from="1622611926288" duration="520000" />
+      <workItem from="1622704142646" duration="720000" />
+      <workItem from="1622738282481" duration="441000" />
+      <workItem from="1622742680216" duration="2212000" />
+      <workItem from="1622822705873" duration="27071000" />
+      <workItem from="1622930939227" duration="1348000" />
+      <workItem from="1623269730188" duration="616000" />
+      <workItem from="1623610736425" duration="70000" />
+      <workItem from="1623880904555" duration="107000" />
+      <workItem from="1624303585404" duration="656000" />
+      <workItem from="1624386610549" duration="59000" />
+      <workItem from="1624390480626" duration="17000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished Part 3 of assignment">
+      <created>1617912940149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617912940150</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished Part 3 of assignment">
+      <created>1618471422980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618471422980</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Part 4 completed">
+      <created>1618471984053</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618471984053</updated>
+    </task>
+    <task id="LOCAL-00004" summary="All parts completed">
+      <created>1618476246796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618476246796</updated>
+    </task>
+    <task id="LOCAL-00005" summary="multiplication done">
+      <created>1618988013409</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618988013409</updated>
+    </task>
+    <task id="LOCAL-00006" summary="part0 done">
+      <created>1619038379748</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619038379748</updated>
+    </task>
+    <task id="LOCAL-00007" summary="part1 done">
+      <created>1619127652497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619127652497</updated>
+    </task>
+    <task id="LOCAL-00008" summary="part3 done">
+      <created>1619239210054</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619239210054</updated>
+    </task>
+    <task id="LOCAL-00009" summary="part4 done">
+      <created>1619240511225</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619240511225</updated>
+    </task>
+    <task id="LOCAL-00010" summary="part1 almost done">
+      <created>1619507474995</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619507474995</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hw5-part1 complete">
+      <created>1619761290218</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619761290218</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hw5-part2 complete">
+      <created>1620354388278</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620354388278</updated>
+    </task>
+    <task id="LOCAL-00013" summary="hw5-part2 fixed javadoc">
+      <created>1620354691011</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620354691011</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hw6 progress on BFS">
+      <created>1620874029910</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620874029910</updated>
+    </task>
+    <task id="LOCAL-00015" summary="hw6 complete">
+      <created>1620960336326</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620960336326</updated>
+    </task>
+    <task id="LOCAL-00016" summary="hw-pathfinder part1 complete">
+      <created>1621497189224</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1621497189224</updated>
+    </task>
+    <task id="LOCAL-00017" summary="hw-pathfinder part4 complete">
+      <created>1621653185802</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1621653185802</updated>
+    </task>
+    <task id="LOCAL-00018" summary="hw8 part2 finished">
+      <created>1622249111996</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1622249111996</updated>
+    </task>
+    <task id="LOCAL-00019" summary="hw8 finished">
+      <created>1622263532373</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1622263532373</updated>
+    </task>
+    <task id="LOCAL-00020" summary="hw9 finished">
+      <created>1622881353843</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1622881353843</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.test" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished Part 3 of assignment" />
+    <MESSAGE value="Part 4 completed" />
+    <MESSAGE value="All parts completed" />
+    <MESSAGE value="multiplication done" />
+    <MESSAGE value="part0 done" />
+    <MESSAGE value="part1 done" />
+    <MESSAGE value="part3 done" />
+    <MESSAGE value="part4 done" />
+    <MESSAGE value="part1 almost done" />
+    <MESSAGE value="hw5-part1 complete" />
+    <MESSAGE value="hw5-part2 complete" />
+    <MESSAGE value="hw5-part2 fixed javadoc" />
+    <MESSAGE value="hw6 progress on BFS" />
+    <MESSAGE value="hw6 complete" />
+    <MESSAGE value="hw-pathfinder part1 complete" />
+    <MESSAGE value="hw-pathfinder part4 complete" />
+    <MESSAGE value="hw8 part2 finished" />
+    <MESSAGE value="hw8 finished" />
+    <MESSAGE value="hw9 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw9 finished" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.HashMap" memberName="size" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="((java.util.HashMap.Node[])((HashMap)g.map).table)[2]" custom="java.util.HashMap.Node[],java.util.HashMap" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cse331$RatPolyTest_testAddZeroToNonZero.ic" NAME="RatPolyTest.testAddZeroToNonZero Coverage Results" MODIFIED="1619230864849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
